@@ -1,27 +1,36 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: #fcebb3;
+  background-color: #c7d371cb;
   padding: 10px;
   margin: 10px;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+.navbar h1 {
+  color: #13040494;
 }
 .navbar img {
-  width: 120px;
+  width: 30%;
 }
 
 .categories {
   list-style: none;
   width: 75%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  font-size: larger;
-  font-weight: bold;
 }
 
 .categories a {
   text-decoration: none;
-  color: #000;
+  color: #13040494;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
 }
 .logo-container {
   display: flex;

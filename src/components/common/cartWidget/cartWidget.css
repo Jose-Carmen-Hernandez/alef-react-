@@ -1,7 +1,7 @@
-.cart {
-  font-size: large;
+.cart span {
+  display: flex;
+  justify-content: center;
+  color: #ee3431;
+  font-size: larger;
   font-weight: bold;
-}
-.cart-icon {
-  font-size: 35px;
 }
